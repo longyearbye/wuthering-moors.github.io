@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wuthering Moors</title>
+
+    <link href="stylebronte.css" rel="stylesheet" />
+<link href=link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=EB+Garamond:ital,wght@0,500;1,400;1,500&family=Josefin+Sans&family=Lora:ital@1&family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <div class="wrapper">
+
+    <div class="header">
+        <div class="logo"> Wuthering Moors</div>
+        <div class="podstr"> Page dedicated to outstanding works of Charlotte, Emily and Anne Bronte</div>
+    </div>> 
+    <nav class="nav">
+    <ul class="menu">
+        <li><a href="#">Works of Charlotte </a></li>
+        <li><a href="#">Works of Emily</a></li>
+        <li><a href="#">Works of Anne</a></li>
+        <li><a href="#">Movie/television adaptations</a></li>
+        <li><a href="#">Join & Support</a></li>
+        <li><a href="#">Bronte Parsonage Museum</a></li>
+    </ul>
+    </nav>
+
+
+</div>
+            <div class="categories">
+
+            
+            <header>
+                <h1> One of the greatest poets and novelists in all time</h1>
+                <p>Published their poetry as Currer, Ellis and Acton Bell in order to maintain anonymous...</p>
+            
+            </header>
+
+            <div class="author">
+                <figure>
+                    <a href="#"><img src="charlott.jpg" alt="Charlotte Bronte" height=280; 
+                        width= 280;></a>
+                    <figcaption> Charlotte Bronte</figcaption>
+                </figure>
+            </div>
+            <div class="author">
+                <figure>
+                    <a href="#"><img src="emily.jpg" alt="Emily Bronte" height=280; 
+                        width= 280;></a>
+                    <figcaption> Emily Bronte</figcaption>
+                </figure>
+            </div>
+            <div class="author">
+                <figure>
+                    <a href="#"><img src="ann.jpg" alt="Anne Bronte" height=280; 
+                        width= 280;></a>
+                    <figcaption> Anne Bronte</figcaption>
+                </figure>
+            </div>
+        </div>
+          
+        <div id="newest">
+            <div class="entries">
+                <h1 id="contactMe"> The latest poems</h1>
+                <p>Check the latest poems and please your soul with a beautiful dose of poetry</p>
+                <div class="entry">
+                    
+                    <div class="entryimg">
+                    <img src="charlott.jpg" alt="Charlotte Bronte">
+
+                    </div>
+
+                    <div class="entrytxt">  
+                        <h2>Charlotte Bronte</h2>
+                        <p class="italics">On the Death of Anne Brontë</p>
+                     
+                    </div>
+
+                </div>
+                
+                <div class="entry">
+                    <div class="entryimg">
+                    <img src="emily.jpg" style="float: left;"/> 
+
+                    </div>
+
+                    <div class="entrytxt">  
+                        <h2>Emily Bronte</h2>
+                        <p class="italics">The night is darkening <br>
+                            round me</p>
+                     
+                    </div>
+                </div>
+
+                <div class="entry">
+                    <div class="entryimg">
+                    <img src="ann.jpg" alt="Anne Bronte">
+
+                    </div>
+
+                    <div class="entrytxt">  
+                        <h2>Anne Bronte</h2>
+                        <p class="italics">Power of love</p>
+                     
+                    </div>
+                </div>
+            </div>
+        </div><div class="quote">
+                <p class="quoteMe"><span class="bold">“I care for myself. The more solitary, the more friendless, the more unsustained I am, the more I will respect myself.”</span>
+                ― Charlotte Brontë, <span class = "italics">Jane Eyre</span></p>
+        </div>
+        <div class="contact">
+                <h1 id="contactMe">Contact me </h1>
+                <p> If you want to discuss about Bronte's heritage including poetry and novels.  </p>
+                <br>
+                <br>
+                <a href="#" class="bluebutton">Contact me</a>
+        </div>
+        <div class="copyright_section">
+                    <p class="copyright_text"> All rights reserved &copy; 2023</a></p>
+        </div>
+ 
+    
+
+
+<script>
+    var navbar = document.querySelector('.nav');
+    var menu = document.querySelector('.menu');
+
+    window.onscroll = function() {
+        if(window.pageYOffset >=menu.offsetTop){
+            navbar.classList.add('sticky');
+        }
+        else{
+            navbar.classList.remove('sticky')
+        }
+    }
+</script>
+</body>
+</html>
